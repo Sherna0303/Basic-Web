@@ -10,3 +10,12 @@ function getRandomColor() {
     }
     return color;
 }
+
+document.getElementById('toggleButton').addEventListener('click', function() {
+    const desc = document.getElementById('newDescription');
+    if (desc.style.display === 'none' || desc.style.display === '') {
+        desc.style.display = 'block';
+    } else {
+        desc.style.display = 'none';
+    }
+});

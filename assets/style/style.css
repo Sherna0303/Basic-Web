@@ -26,3 +26,9 @@ button {
     color: #444;
     margin-top: 10px;
 }
+
+#subHeader {
+    color: #555;
+    font-size: 24px;
+    margin-top: 20px;
+}

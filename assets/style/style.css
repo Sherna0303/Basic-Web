@@ -39,3 +39,7 @@ button {
     margin-top: 20px;
 }
 
+#itemList li:hover {
+    color: #007BFF;
+    cursor: pointer;
+}
